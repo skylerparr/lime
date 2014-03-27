@@ -3079,6 +3079,7 @@ TEXT_PROP(border,Border,alloc_bool,val_bool);
 TEXT_PROP(border_color,BorderColor,alloc_int,val_int);
 TEXT_PROP(embed_fonts,EmbedFonts,alloc_bool,val_bool);
 TEXT_PROP(auto_size,AutoSize,alloc_int,val_int);
+TEXT_PROP_GET(caret_index,CaretIndex,alloc_int);
 TEXT_PROP_GET(text_width,TextWidth,alloc_float);
 TEXT_PROP_GET(text_height,TextHeight,alloc_float);
 TEXT_PROP_GET(max_scroll_h,MaxScrollH,alloc_int);
